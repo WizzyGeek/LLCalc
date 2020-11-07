@@ -92,7 +92,8 @@ int main(){
     scanf("%19s", num1);
     scanf("%19s", num2);
     scanf("%hu", &op);
-    printf("%lld\n", toInt(createLL(num1)));
+    printf("Input Format: \"num1 num2 operation\"\nExample:\n11 12 1\nFor adding 11 and 12\n=============\n");
+    // printf("%lld\n", toInt(createLL(num1)));
     struct listNode* Num1, Num2;
     switch (op){
         case 1:
